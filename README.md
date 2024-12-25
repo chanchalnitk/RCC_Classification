@@ -1,4 +1,4 @@
-# RCC_Classification
+# Important Libraries
 import tensorflow.keras.backend as K 
 
 from tensorflow.keras.models import Model
@@ -7,7 +7,7 @@ from tensorflow.keras.layers import*
 import collections
 import tensorflow as tf
 import tensorflow_addons as tfa
-# GPU Utilization
+# GPU Utilization Code
 import tensorflow as tf
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
