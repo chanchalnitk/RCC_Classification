@@ -9,5 +9,9 @@ Kidney cancer is a major contributor to cancer-related mortality, with renal cel
 
 
 
+
+
+
+
 Our key contributions are summarized as follows: (1) We introduce RenalNet, a highly accurate and computationally efficient end-to-end deep learning architecture for classifying RCC subtypes from H\&E-stained kidney histopathology images, developed through a close collaboration between experienced healthcare professionals and AI experts. (2) To enhance the model’s ability to capture fine-grained morphological patterns, we design two novel convolutional modules: Multiple Channel Residual Transformation (MCRT), which emphasizes the most critical tissue features, and Group Convolutional Deep Localization (GCDL), which fuses three complementary feature descriptors to improve localization and discrimination. (3) We also construct a new benchmark dataset derived from whole slide images (WSIs) in The Cancer Genome Atlas (TCGA), with region-of-interest (ROI) extraction guided by expert pathologists, which will be publicly released to support reproducibility and future research. (4) RenalNet demonstrates superior performance across multiple organ-specific histopathology datasets, surpassing eight recent state-of-the-art models while requiring significantly fewer computational resources and training time—making it both scalable and practical for real-world clinical use.
 
