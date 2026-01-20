@@ -1,8 +1,3 @@
-# Data Availability
-
-https://drive.google.com/drive/folders/1Lz7THwUxFQVOlwKx4lfGA0l_dtqC4HkB?usp=sharing
-
-
 Kidney cancer is a major contributor to cancer-related mortality, with renal cell carcinoma (RCC) being the most common subtype, accounting for approximately 80–85% of all renal tumors. Traditional RCC diagnosis through histopathology image analysis is labor-intensive, error-prone, and heavily reliant on expert interpretation. To overcome these limitations, we propose RenalNet, a robust and computationally efficient deep learning architecture for the accurate classification of RCC subtypes. RenalNet is designed to capture cross-channel and inter-spatial features at three scales simultaneously, enabling the network to learn complex tissue morphology effectively. It incorporates a novel Multiple Channel Residual Transformation (MCRT) module to focus on the most relevant morphological features by fusing information from multiple paths, and a Group Convolutional Deep Localization (GCDL) module that enhances representational power by integrating three distinct feature descriptors. To support this work, we curated a new benchmark dataset from The Cancer Genome Atlas (TCGA), extracting high-quality image patches from hematoxylin and eosin (H\&E) stained whole slide images (WSIs) under expert supervision. RenalNet was rigorously evaluated on three widely used datasets, achieving superior classification accuracies of 91.67%, 97.14%, and 97.24%, outperforming state-of-the-art methods. Additionally, it significantly reduces computational overhead, requiring only 2.71× fewer FLOPs and 0.2131× the parameters, highlighting its effectiveness for real-world clinical applications.
 
 
